@@ -1,0 +1,28 @@
+body {
+    background-color:antiquewhite;
+}
+
+@media (min-width: 600px) {
+    body {
+        background-color:blueviolet;
+    }
+}
+
+@media (min-width: 700px) {
+    body {
+        background-color:crimson;
+    }
+}
+
+
+@media (min-width: 800px) {
+    body {
+        background-color:darkgoldenrod;
+    }
+}
+
+@media (min-width: 900px) {
+    body {
+        background-color:aqua;
+    }
+}
