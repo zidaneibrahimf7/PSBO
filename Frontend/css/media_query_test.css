@@ -2,27 +2,90 @@ body {
     background-color:antiquewhite;
 }
 
-@media (min-width: 600px) {
+nav {
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.click {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: green;
+  }
+
+.flexWrap {
+    background-color: indigo;
+    height: 50%;
+    min-height: 2.73rem;
+    font-size: 80%;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.flexText {
+    display: flex;
+    margin-right: 1rem;
+    flex: 0.25 1 auto;
+    justify-content: center;
+}
+
+.flexText2 {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    flex: 1 1 auto;
+}
+
+@media (min-width: 525px) {
     body {
-        background-color:blueviolet;
+        background-color: darkkhaki;
+    }
+
+    .flexWrap {
+        font-size: 100%;
     }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 650px) {
     body {
-        background-color:crimson;
+        background-color:darkgrey;
+    }
+
+    .flexWrap {
+        font-size: 120%;
     }
 }
 
 
 @media (min-width: 800px) {
     body {
-        background-color:darkgoldenrod;
+        background-color:darkgray;
+    }
+
+    .flexWrap {
+        font-size: 150%;
     }
 }
 
 @media (min-width: 900px) {
     body {
-        background-color:aqua;
+        background-color:cornsilk;
     }
 }
