@@ -1,5 +1,5 @@
 # Ide dasar aplikasi (draft plan 1) 
-## KANTIN IPB (kantin.ipb.ac.id) : 
+<a href="README.md">[Kembali ke mainpage]</a>
 
 ## Data yang dibutuhkan :
 Lokasi kantin\
