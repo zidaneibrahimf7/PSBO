@@ -58,7 +58,7 @@ Meningkatkan kualitas manajemen toko Anda dan menyajikan informasi up-to-date un
 [`^ kembali ke atas ^`](#)
 
 # Konsep OOP yang digunakan
-
+* Encapsulation
 
 
 # Tipe desain pengembangan yang digunakan
