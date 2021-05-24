@@ -1,5 +1,5 @@
-Status Report (24-04-2021)
-
+# Status Report (24-04-2021)
+<a href="README.md">[Kembali ke mainpage]</a>
 
 # Kesulitan / Concern:
 
@@ -30,9 +30,9 @@ Roles:
 Zidane - UI/UX\
 Faris - Backend\
 Feby - Frontend\
-Rifqi - Belum Fix (Tolong konfirmasi secepetnya) (Kalo minggu depan belum milih juga bakal ditugasin ke role manapun yang kurang)\
+Rifqi - Belum Fix (Tolong konfirmasi secepetnya) (Kalo minggu depan belum milih juga bakal ditugasin ke role manapun yang kurang)
 
 Fitur apps:
 Rekomendasi makanan (by profile diet yang user pilih saat pertama kali buka aplikasi, misal profil diet Keto hari ini bakal direkomendasiin menu daging, besoknya ikan, besoknya telur (loop ke depan gitu biar gizi user seimbang)).\
 Informasi asupan nilai gizi.\
-Search by menu makanan, filter/sort hasil search by harga, dsb..\
+Search by menu makanan, filter/sort hasil search by harga, dsb..
