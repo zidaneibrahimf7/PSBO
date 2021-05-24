@@ -1,4 +1,4 @@
-# Deskripsi aplikasi (draft plan 1) 
+# Ide dasar aplikasi (draft plan 1) 
 ## KANTIN IPB (kantin.ipb.ac.id) : 
 
 ## Data yang dibutuhkan :
