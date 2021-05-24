@@ -1,4 +1,5 @@
 # Status Report (01 Mei 2021)
+<a href="README.md">[Kembali ke mainpage]</a>
 
 ## Concern/Masalah:
 Feby: Tampilan website terlalu hambar. Nilai gizi dll masih dalam bentuk image.\
