@@ -1,4 +1,6 @@
-[Kantin IPB homepage](#)
+[Frontend Table of Contents](#)
+
+<a href="../../README.md">Back to github mainpage</a>
 
 ## Getting started
 
