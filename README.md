@@ -92,6 +92,7 @@ Responsive Test:
 ## Referensi
 [`^ kembali ke atas ^`](#)
 
+* <a href="https://www.figma.com/file/LJXWTzxReLjmdCkKyL44dT/PSBOOOOOOOO?node-id=0%3A1">Figma — App Design</a>
 * [Ide aplikasi](idea.md) — Ide dasar aplikasi.
 * [Status Report 1](status_1.md) — Status Report (24-04-2021).
 * [Status Report 2](status_2.md) — Status Report (01-05-2021).
