@@ -9,7 +9,6 @@
 [Deskripsi Singkat Aplikasi](#deskripsi) | [User Analysis](#user) | [Spesifikasi teknis lingkungan pengembangan](#spec) | [Fitur umum](#fitur) | [OOP](#oop) | [Tipe desain pengembangan yang digunakan](#design) | [Developer beserta job desc](#job) | [Progress](#progress) | [Referensi](#referensi)
 
 # Deskripsi Singkat Aplikasi
-<a href="README.md">[Kembali ke mainpage]</a>
 
 Kantin IPB adalah aplikasi berbasis web untuk menemukan makanan bergizi termurah, terdekat, di sekitar kampus IPB Dramaga.
 
