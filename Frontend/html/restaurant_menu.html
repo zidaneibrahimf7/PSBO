@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Red Corner - Menu</title>
-  <meta name="description" content="Febs Tailwind Practice">
+  <meta name="description" content="Red Corner Menu">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:title" content="">
@@ -17,8 +17,8 @@
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -28,249 +28,144 @@ font-sans text-gray-900 h-screen">
     <section class="container bg-gray-100 my-12 mx-auto px-8 md:px-12">
         <header>
             <h1 class="m-5 pt-6 font-black text-2xl text-red-600">Red Corner</h1>
-            <p class="m-5 font-black text-2xl text-gray-800">25 Menus</p>
+            <div class="flex justify-between">
+                <p class="m-5 font-black text-lg text-gray-800">{{Menus_Count}}</p>
+                <p class="m-5 font-black text-lg text-gray-800">{{Distance_From_You}}</p>
+            </div>
         </header>
         <div class="flex flex-wrap -mx-1 lg:-mx-4">
     
-            <!-- Column -->
+            <!-- Column Layout -->
             <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
     
-                <!-- Article -->
+                <!-- Article Food Card-->
                 <article class="overflow-hidden rounded-2xl shadow-lg">
     
-                    <a href="#">
-                        <img alt="Placeholder" class="block h-auto w-full" src="../img/ketoprak.jpg">
-                    </a>
-    
-                    <header class="flex items-center justify-between leading-tight p-2 md:p-4">
-                        <h1 class="text-lg">
-                            <a class="no-underline hover:underline text-black" href="#">
-                                Article Title
-                            </a>
-                        </h1>
-                        <p class="text-grey-darker text-sm">
-                            11/1/19
-                        </p>
-                    </header>
-    
-                    <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                        <a class="flex items-center no-underline hover:underline text-black" href="#">
-                            <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
-                            <p class="ml-2 text-sm">
-                                Author Name
+                    <a class="flex flex-col border no-underline hover:underline text-black" href="#">
+                        <img alt="Placeholder" class="block h-auto mb-2 w-full" src="../img/ketoprak.jpg">
+                            <span class="text-2xl ml-2 mb-1">{{food.name}}</span>
+                            <span class="ml-2">{{food.price}}</span>
+                            <span class="ml-2">{{food.cal}}</span>
+                            <p class="text-right m-2 text-grey-darker text-sm">
+                                {{food.rating}}
                             </p>
+
                         </a>
-                        <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
-                            <span class="hidden">Like</span>
-                            <i class="fa fa-heart"></i>
-                        </a>
-                    </footer>
-    
                 </article>
                 <!-- END Article -->
     
             </div>
-            <!-- END Column -->
-    
-            <!-- Column -->
+            <!-- END Column Layout -->
+        
+            <!-- Column Layout -->
             <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
     
-                <!-- Article -->
-                <article class="overflow-hidden rounded-lg shadow-lg">
+                <!-- Article Food Card-->
+                <article class="overflow-hidden rounded-2xl shadow-lg">
     
-                    <a href="#">
-                        <img alt="Placeholder" class="block h-auto w-full" src="../img/ketoprak.jpg">
-                    </a>
-    
-                    <header class="flex items-center justify-between leading-tight p-2 md:p-4">
-                        <h1 class="text-lg">
-                            <a class="no-underline hover:underline text-black" href="#">
-                                Article Title
-                            </a>
-                        </h1>
-                        <p class="text-grey-darker text-sm">
-                            11/1/19
-                        </p>
-                    </header>
-    
-                    <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                        <a class="flex items-center no-underline hover:underline text-black" href="#">
-                            <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
-                            <p class="ml-2 text-sm">
-                                Author Name
+                    <a class="flex flex-col border no-underline hover:underline text-black" href="#">
+                        <img alt="Placeholder" class="block h-auto mb-2 w-full" src="../img/ketoprak.jpg">
+                            <span class="text-2xl ml-2 mb-1">{{food.name}}</span>
+                            <span class="ml-2">{{food.price}}</span>
+                            <span class="ml-2">{{food.cal}}</span>
+                            <p class="text-right m-2 text-grey-darker text-sm">
+                                {{food.rating}}
                             </p>
+
                         </a>
-                        <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
-                            <span class="hidden">Like</span>
-                            <i class="fa fa-heart"></i>
-                        </a>
-                    </footer>
-    
                 </article>
                 <!-- END Article -->
     
             </div>
-            <!-- END Column -->
+            <!-- END Column Layout -->
     
-            <!-- Column -->
+            <!-- Column Layout -->
             <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
     
-                <!-- Article -->
-                <article class="overflow-hidden rounded-lg shadow-lg">
+                <!-- Article Food Card-->
+                <article class="overflow-hidden rounded-2xl shadow-lg">
     
-                    <a href="#">
-                        <img alt="Placeholder" class="block h-auto w-full" src="../img/ketoprak.jpg">
-                    </a>
-    
-                    <header class="flex items-center justify-between leading-tight p-2 md:p-4">
-                        <h1 class="text-lg">
-                            <a class="no-underline hover:underline text-black" href="#">
-                                Article Title
-                            </a>
-                        </h1>
-                        <p class="text-grey-darker text-sm">
-                            11/1/19
-                        </p>
-                    </header>
-    
-                    <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                        <a class="flex items-center no-underline hover:underline text-black" href="#">
-                            <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
-                            <p class="ml-2 text-sm">
-                                Author Name
+                    <a class="flex flex-col border no-underline hover:underline text-black" href="#">
+                        <img alt="Placeholder" class="block h-auto mb-2 w-full" src="../img/ketoprak.jpg">
+                            <span class="text-2xl ml-2 mb-1">{{food.name}}</span>
+                            <span class="ml-2">{{food.price}}</span>
+                            <span class="ml-2">{{food.cal}}</span>
+                            <p class="text-right m-2 text-grey-darker text-sm">
+                                {{food.rating}}
                             </p>
+
                         </a>
-                        <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
-                            <span class="hidden">Like</span>
-                            <i class="fa fa-heart"></i>
-                        </a>
-                    </footer>
-    
                 </article>
                 <!-- END Article -->
     
             </div>
-            <!-- END Column -->
-    
-            <!-- Column -->
+            <!-- END Column Layout -->
+
+            <!-- Column Layout -->
             <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
     
-                <!-- Article -->
-                <article class="overflow-hidden rounded-lg shadow-lg">
+                <!-- Article Food Card-->
+                <article class="overflow-hidden rounded-2xl shadow-lg">
     
-                    <a href="#">
-                        <img alt="Placeholder" class="block h-auto w-full" src="../img/ketoprak.jpg">
-                    </a>
-    
-                    <header class="flex items-center justify-between leading-tight p-2 md:p-4">
-                        <h1 class="text-lg">
-                            <a class="no-underline hover:underline text-black" href="#">
-                                Article Title
-                            </a>
-                        </h1>
-                        <p class="text-grey-darker text-sm">
-                            11/1/19
-                        </p>
-                    </header>
-    
-                    <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                        <a class="flex items-center no-underline hover:underline text-black" href="#">
-                            <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
-                            <p class="ml-2 text-sm">
-                                Author Name
+                    <a class="flex flex-col border no-underline hover:underline text-black" href="#">
+                        <img alt="Placeholder" class="block h-auto mb-2 w-full" src="../img/ketoprak.jpg">
+                            <span class="text-2xl ml-2 mb-1">{{food.name}}</span>
+                            <span class="ml-2">{{food.price}}</span>
+                            <span class="ml-2">{{food.cal}}</span>
+                            <p class="text-right m-2 text-grey-darker text-sm">
+                                {{food.rating}}
                             </p>
+
                         </a>
-                        <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
-                            <span class="hidden">Like</span>
-                            <i class="fa fa-heart"></i>
-                        </a>
-                    </footer>
-    
                 </article>
                 <!-- END Article -->
     
             </div>
-            <!-- END Column -->
-    
-            <!-- Column -->
+            <!-- END Column Layout -->
+                
+            <!-- Column Layout -->
             <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
     
-                <!-- Article -->
-                <article class="overflow-hidden rounded-lg shadow-lg">
+                <!-- Article Food Card-->
+                <article class="overflow-hidden rounded-2xl shadow-lg">
     
-                    <a href="#">
-                        <img alt="Placeholder" class="block h-auto w-full" src="../img/ketoprak.jpg">
-                    </a>
-    
-                    <header class="flex items-center justify-between leading-tight p-2 md:p-4">
-                        <h1 class="text-lg">
-                            <a class="no-underline hover:underline text-black" href="#">
-                                Article Title
-                            </a>
-                        </h1>
-                        <p class="text-grey-darker text-sm">
-                            11/1/19
-                        </p>
-                    </header>
-    
-                    <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                        <a class="flex items-center no-underline hover:underline text-black" href="#">
-                            <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
-                            <p class="ml-2 text-sm">
-                                Author Name
+                    <a class="flex flex-col border no-underline hover:underline text-black" href="#">
+                        <img alt="Placeholder" class="block h-auto mb-2 w-full" src="../img/ketoprak.jpg">
+                            <span class="text-2xl ml-2 mb-1">{{food.name}}</span>
+                            <span class="ml-2">{{food.price}}</span>
+                            <span class="ml-2">{{food.cal}}</span>
+                            <p class="text-right m-2 text-grey-darker text-sm">
+                                {{food.rating}}
                             </p>
+
                         </a>
-                        <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
-                            <span class="hidden">Like</span>
-                            <i class="fa fa-heart"></i>
-                        </a>
-                    </footer>
-    
                 </article>
                 <!-- END Article -->
     
             </div>
-            <!-- END Column -->
-    
-            <!-- Column -->
+            <!-- END Column Layout --> 
+            
+            <!-- Column Layout -->
             <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
     
-                <!-- Article -->
-                <article class="overflow-hidden rounded-lg shadow-lg">
+                <!-- Article Food Card-->
+                <article class="overflow-hidden rounded-2xl shadow-lg">
     
-                    <a href="#">
-                        <img alt="Placeholder" class="block h-auto w-full" src="../img/ketoprak.jpg">
-                    </a>
-    
-                    <header class="flex items-center justify-between leading-tight p-2 md:p-4">
-                        <h1 class="text-lg">
-                            <a class="no-underline hover:underline text-black" href="#">
-                                Article Title
-                            </a>
-                        </h1>
-                        <p class="text-grey-darker text-sm">
-                            11/1/19
-                        </p>
-                    </header>
-    
-                    <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                        <a class="flex items-center no-underline hover:underline text-black" href="#">
-                            <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
-                            <p class="ml-2 text-sm">
-                                Author Name
+                    <a class="flex flex-col border no-underline hover:underline text-black" href="#">
+                        <img alt="Placeholder" class="block h-auto mb-2 w-full" src="../img/ketoprak.jpg">
+                            <span class="text-2xl ml-2 mb-1">{{food.name}}</span>
+                            <span class="ml-2">{{food.price}}</span>
+                            <span class="ml-2">{{food.cal}}</span>
+                            <p class="text-right m-2 text-grey-darker text-sm">
+                                {{food.rating}}
                             </p>
+
                         </a>
-                        <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
-                            <span class="hidden">Like</span>
-                            <i class="fa fa-heart"></i>
-                        </a>
-                    </footer>
-    
                 </article>
                 <!-- END Article -->
     
             </div>
-            <!-- END Column -->
+            <!-- END Column Layout -->
     
         </div>
     </section>
@@ -279,9 +174,9 @@ font-sans text-gray-900 h-screen">
 
 
 
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="../js/plugins.js"></script>
+  <script src="../js/main.js"></script>
 
 
 
